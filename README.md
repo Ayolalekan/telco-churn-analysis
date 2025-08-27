@@ -1,11 +1,26 @@
 # 📊 Customer Churn Prediction Analysis
 
-![Churn Analysis Banner](./images/churn_banner.png)
+![Churn Analysis Banner](churn_banner2.jpg)
 
 **Project Overview:**  
 This project analyzes customer churn for a telecommunications company. The goal is to **identify key factors driving churn**, build predictive models, and provide actionable recommendations.
 
 ---
+
+# 🚀 Customer Churn Prediction Project
+
+---
+
+## 🔗 Connect with Me
+
+**🌟 Explore My Work:** [Portfolio Website](https://your-portfolio-link.com)  
+**💼 Professional Profile:** [LinkedIn](https://linkedin.com/in/yourprofile)  
+
+> ⚡ **Don't miss this!** Check out my portfolio to see other projects and innovations in Data Science & AI.
+
+---
+
+
 
 ## 🔹 Table of Contents
 
@@ -70,7 +85,7 @@ Customer churn occurs when a customer stops doing business with a company. Predi
 - **Monthly Charges**: Higher monthly charges correlate with higher churn.  
 - **Services**: Lack of value-added services (`OnlineSecurity`, `TechSupport`, `PhoneService`, `InternetService`) increases churn risk.  
 
-<details>
+
 <summary>Visualizations</summary>
 
 - **Histogram plots** for numerical variables  
@@ -80,18 +95,29 @@ Customer churn occurs when a customer stops doing business with a company. Predi
 <table>
   <tr>
     <td>
-      <img src="./images/tenure_distribution.png" alt="Tenure Distribution" width="300"/>
-      <p><em>Histogram showing most customers have tenure below 24 months.</em></p>
+      <img src="numeric.JPG" alt="Tenure Distribution" width="300"/>
+      <p><em> Numeric Features Distribution </em></p>
     </td>
     <td>
-      <img src="./images/contract_churn.png" alt="Contract vs Churn" width="300"/>
-      <p><em>Bar plot showing month-to-month contract customers have the highest churn rate.</em></p>
+      <img src="correlation.JPG" alt="Contract vs Churn" width="300"/>
+      <p><em>Correlation Heatmap matrix Between Tenure, MonthlyChrgs, Churn </em></p>
     </td>
   </tr>
 </table>
- 
 
-</details>
+ <table>
+  <tr>
+    <td>
+      <img src="top.JPG" alt="Tenure Distribution" width="300"/>
+      <p><em> Top Features Impacting Customer Churn </em></p>
+    </td>
+    <td>
+      <img src="top10.JPG" alt="Contract vs Churn" width="300"/>
+      <p><em> Top 10 Features Driving  Churn </em></p>
+    </td>
+  </tr>
+</table>
+
 
 ---
 
@@ -138,11 +164,11 @@ RandomizedSearchCV for Random Forest
   <tr>
     <td>
       <strong>Confusion Matrix:</strong><br>
-      <img src="./images/lr_confusion_matrix.png" alt="Logistic Regression Confusion Matrix" width="300"/>
+      <img src="confusion_matrix.JPG" alt="Logistic Regression Confusion Matrix" width="300"/>
     </td>
     <td>
       <strong>ROC Curve:</strong><br>
-      <img src="./images/lr_roc_curve.png" alt="Logistic Regression ROC Curve" width="300"/>
+      <img src="roc_curve.JPG" alt="Logistic Regression ROC Curve" width="300"/>
     </td>
   </tr>
 </table>
@@ -184,7 +210,7 @@ SHAP (SHapley Additive exPlanations) provides **global and local interpretabilit
 | 5    | TechSupport_Yes         | Providing tech support reduces churn |
 
 **SHAP Summary Plot:**  
-![SHAP Summary Plot](./images/shap_summary_plot.png)
+![SHAP Summary Plot](shap.JPG)
 
 ---
 
@@ -242,5 +268,6 @@ jupyter notebook
 - **Tenure, Contract Type, and Monthly Charges** are the strongest churn drivers.
 - **SHAP analysis** provides a clear ranking of features for business decisions.
 - Insights can directly inform **customer retention strategies**.
+
 
 
